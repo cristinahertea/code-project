@@ -1,0 +1,25 @@
+#contact .contact-container h1{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+#contact .contact-items .items.icons{
+    width: 50%;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    margin-left: 25%;
+}
+#contact .contact-items .items.icons .adress{
+    border: 10px solid grey;
+    border-radius: 50%;
+}
+#contact .contact-items .items.icons .adress:hover{
+    background-color: yellow;
+}
+
+
+
+
+
+
+
+

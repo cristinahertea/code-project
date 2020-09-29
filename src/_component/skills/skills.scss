@@ -1,0 +1,72 @@
+#skills .skills{
+    flex-direction: column;
+    text-align: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.section-title{
+    font-size: 4rem;
+    font-weight: 300;
+    color:black;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    text-align: center;
+}
+#skills .skills-top p{
+    font-family: mySecondFont;
+    font-size: 2em;
+    margin-top: 5px;
+    line-height:2.5rem;
+    font-weight: 300px;
+}
+
+#skills .skills-bottom{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+#skills .skills-item{
+    color: white;
+    font-family: mySecondFont;
+    font-size: 2em;
+    flex-basis: 80%;
+    display:flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 10px;
+    background-image: url('./asset/image/background2.jpg');
+    background-size: cover;
+    margin: 10px 5%;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+#skills .skills-item::after{
+    content: '';
+    position: absolute;
+    left:0;
+    top:0;
+    height: 100%;
+    width:100%;
+    background-color: black;
+    opacity: .5;
+    z-index: -1;
+}
+#skills .skills-item h2{
+    font-family: myFirstFont;
+    color:#0099ff;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+#skills .skills-item p{
+    color: white;
+    text-align: left;
+}

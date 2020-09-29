@@ -1,0 +1,64 @@
+
+@import '_component/start-section/start-section.scss';
+@import '_component/about-me/about-me.scss';
+@import '_component/skills/skills.scss';
+@import '_component/projects-section/projects-section.scss';
+@import '_component/connect/connect.scss';
+@import '_asset/font/rockit.ttf';
+@import '_asset/font/Coda-Regular.ttf';
+@import '_asset/font/Allison.ttf';
+@font-face{
+    font-family: myFirstFont;
+    src: url('/asset/font/Rockit.ttf');
+}
+@font-face{
+    font-family: mySecondFont;
+    src: url('/asset/font/Coda-Regular.ttf');
+}
+@font-face{
+    font-family: myThirdFont;
+    src: url('/asset/font/Allison.ttf');
+} 
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size:10px;
+    font-family: myFirstFont;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Keyframes*/
+@keyframes text_reveal_box{
+    50%{
+        width: 100%;
+        left:0;
+    }
+    100%{
+        width: 0;
+        left:100%
+    }
+}
+@keyframes text_reveal{
+    100%{
+        color:white;
+    }
+}
+@keyframes text_reveal_name{
+    100%{
+        color:rgb(146, 3, 3);
+        font-weight: 500;
+    }
+}
