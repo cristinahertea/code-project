@@ -9,15 +9,15 @@
 @import '_asset/font/Allison.ttf';
 @font-face{
     font-family: myFirstFont;
-    src: url('/asset/font/Rockit.ttf');
+    src: url('./asset/font/Rockit.ttf');
 }
 @font-face{
     font-family: mySecondFont;
-    src: url('/asset/font/Coda-Regular.ttf');
+    src: url('./asset/font/Coda-Regular.ttf');
 }
 @font-face{
     font-family: myThirdFont;
-    src: url('/asset/font/Allison.ttf');
+    src: url('./asset/font/Allison.ttf');
 } 
 *{
     padding:0;
